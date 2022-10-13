@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -16,14 +16,14 @@
             "keys": "ctrl+c"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "prevTab"
             },
             "keys": "ctrl+h"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "nextTab"
             },
@@ -34,7 +34,7 @@
             "keys": "ctrl+w"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "newTab"
             },
@@ -45,15 +45,15 @@
     "copyOnSelect": false,
     "defaultProfile": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
     "launchMode": "fullscreen",
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "backgroundImage": "C:\\Users\\kristiyan.ivanov\\Downloads\\wallhaven-o3ormm.jpg",
             "backgroundImageOpacity": 0.089999999999999997,
             "colorScheme": "Campbell Powershell",
             "cursorShape": "filledBox",
-            "font": 
+            "font":
             {
                 "face": "FuraCode NF Retina",
                 "size": 14
@@ -61,7 +61,7 @@
             "opacity": 100,
             "useAcrylic": false
         },
-        "list": 
+        "list":
         [
             {
                 "backgroundImage": "desktopWallpaper",
@@ -86,7 +86,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#0C0C0C",
@@ -332,7 +332,8 @@
             "brightYellow": "#E0AF68",
             "cursorColor": "#C0CAF5",
             "cyan": "#7DCFFF",
-            "foreground": "#C0CAF5",
+						"foreground": "#97b1d6",
+            //"foreground": "#C0CAF5",
             "green": "#9ECE6A",
             "name": "tokyonight",
             "purple": "#BB9AF7",
