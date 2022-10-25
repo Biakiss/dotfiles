@@ -332,7 +332,7 @@
             "brightYellow": "#E0AF68",
             "cursorColor": "#C0CAF5",
             "cyan": "#7DCFFF",
-						"foreground": "#97b1d6",
+	    "foreground": "#97b1d6",
             //"foreground": "#C0CAF5",
             "green": "#9ECE6A",
             "name": "tokyonight",
