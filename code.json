@@ -1,0 +1,95 @@
+
+{
+
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"editor.lineNumbers": "off",
+	"editor.minimap.enabled": false,
+	"editor.cursorBlinking": "smooth",
+	"editor.unicodeHighlight.ambiguousCharacters": false,
+
+	"workbench.colorTheme": "Ayu Mirage",
+	"workbench.statusBar.visible": false,
+	"workbench.iconTheme": null,
+	"workbench.startupEditor": "none",
+	"workbench.editor.tabCloseButton": "off",
+	"workbench.editor.showIcons": false,
+	"workbench.editor.tabSizing": "fit",
+
+	"files.defaultLanguage": "markdown",
+	"files.trimTrailingWhitespace": true,
+
+	"breadcrumbs.enabled": false,
+	"git.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"extensions.ignoreRecommendations": true,
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+
+	// EDITOR COLORS
+	"workbench.colorCustomizations": {
+
+		"editorCursor.foreground": "#689d6a",
+		"tab.activeBorder": "#689d6a"
+		// "tab.activeForeground": "#1D2021",
+		// "scrollbar.shadow": "#1D2021",
+		// "widget.shadow": "#1D2021",
+		// "icon.foreground": "#1D2021"
+	},
+
+  // TEXT COLORS
+	"editor.tokenColorCustomizations": {
+		"textMateRules":
+		[
+
+			// JSON
+			{
+				"scope": "support.type.property-name.json.comments",
+				"settings": {
+					"foreground": "#689d6a"
+				}
+			},
+			{
+				"scope": "comment.line.double-slash.js",
+				"settings": {
+					"fontStyle": ""
+				}
+			},
+
+			// Markdown
+				{
+				"scope": "text.html.markdown",
+				"settings": {
+				"foreground": "#cce5ffb3",
+				}
+				},
+				{
+				  "scope": "punctuation.definition.heading.markdown",
+				  "settings": {
+						"foreground": "#B8CFE680",
+				    "fontStyle": ""
+				  }
+				},
+				{
+				  "scope": "heading.1.markdown entity.name.section.markdown,",
+				  "settings": {
+				    "foreground": "#a7d2c2",
+				    "fontStyle": ""
+				  }
+				},
+				{
+				  "scope": "heading.2.markdown entity.name.section.markdown,",
+				  "settings": {
+				    "foreground": "#cad2a7",
+				    "fontStyle": ""
+				  }
+				},
+		]
+	},
+	"explorer.confirmDelete": false,
+	"window.menuBarVisibility": "compact",
+	"window.title": " ",
+	"workbench.layoutControl.enabled": false,
+	"workbench.activityBar.visible": false,
+	"window.zoomLevel": 3,
+}
