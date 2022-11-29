@@ -1,0 +1,72 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command":
+            {
+                "action": "prevTab"
+            },
+            "keys": "ctrl+h"
+        },
+        {
+            "command":
+            {
+                "action": "nextTab"
+            },
+            "keys": "ctrl+l"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command":
+            {
+                "action": "newTab"
+            },
+            "keys": "ctrl+shift+n"
+        }
+    ],
+    "schemes": 
+    [
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#97B1D6",
+            "green": "#9ECE6A",
+            "name": "tokyonight",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        }
+    ],
+    "tabSwitcherMode": "disabled",
+    "copyFormatting": "none",
+    "copyOnSelect": true,
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "bellStyle": "none"
+        }
+    }
+}
